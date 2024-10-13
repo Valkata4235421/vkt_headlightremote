@@ -1,19 +1,17 @@
-fx_version 'cerulean'          -- Defines the FX version
-game 'gta5'                    -- Specifies the game
-lua54 'yes'                    -- Indicates Lua 5.4 compatibility
+fx_version 'cerulean'
+game 'gta5'
+lua54 'yes'
+version '1.0.0'
 
--- Shared scripts (loaded before server and client scripts)
 shared_scripts {
-    'config.lua',              -- Configuration file shared between client and server
-    '@ox_lib/init.lua'         -- External library, make sure this path is correct
+    'config.lua',
+    '@ox_lib/init.lua'
 }
 
--- Server scripts (loaded after shared scripts)
 server_scripts {
-    'server.lua',              -- Your server-side script
+    'server.lua',
 }
 
--- Client scripts (loaded after shared scripts)
 client_scripts {
-    'client.lua',              -- Your client-side script
+    'client.lua',
 }
