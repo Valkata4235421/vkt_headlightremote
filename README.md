@@ -11,7 +11,6 @@ Welcome to the **Headlight Remote Script**! This script allows players to change
 
 This script requires the following resources:
 - **qb-core:** The core framework for QBCore resources.
-- **qb-inventory:** The inventory management system for handling items.
 - **qb-menu:** (Optional if you want to use `qb-menu`)
 - **ox_lib:** (Optional if you want to use `ox_lib`)
 
